@@ -1,11 +1,13 @@
 last_product = {
-    "title": "Full Season Ski Pass",
-    "short_description": "Enjoy unlimited skiing throughout the season with our full season pass, including exclusive member benefits.",
-    "price": 450.00,
-    "category": "Ski Pass",
-    "features": [
-        "Unlimited access to all lifts",
-        "Discounts at resort restaurants and shops",
-        "Invitations to members-only events"
-    ]
-}
+        "title": "Snow Festival Ticket",
+        "short_description": "Entry ticket to the annual Snow Festival featuring ice sculptures, games, and live music.",
+        "price": 45.00,
+        "category": "Events",
+        "features": [
+            "Full-day pass",
+            "Access to all events and attractions",
+            "Special discounts on food and merchandise"
+        ]
+    }
+
+    

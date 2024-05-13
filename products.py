@@ -758,5 +758,302 @@ products = [
             "Discounts at resort restaurants and shops",
             "Invitations to members-only events"
         ]
+    },
+    {
+        "title": "Sunset Snowshoe Stroll",
+        "short_description": "Join a peaceful evening snowshoe walk and watch the sunset over the mountains.",
+        "price": 55.00,
+        "category": "Experiences",
+        "features": [
+            "Guided evening tour",
+            "Snowshoes provided",
+            "Complimentary warm beverages"
+        ]
+    },
+    {
+        "title": "Après-Ski Yoga Session",
+        "short_description": "Unwind with a yoga session tailored for skiers to help relax and restore after a day on the slopes.",
+        "price": 30.00,
+        "category": "Ski School",
+        "features": [
+            "1-hour session",
+            "Yoga mats provided",
+            "Instructor specializes in athletic recovery"
+        ]
+    },
+    {
+        "title": "Midnight Ice Skating",
+        "short_description": "Enjoy a magical ice skating experience under the stars at our open-air rink.",
+        "price": 25.00,
+        "category": "Events",
+        "features": [
+            "Night-time skate rental",
+            "Live acoustic music",
+            "Hot cocoa bar"
+        ]
+    },
+    {
+        "title": "Gourmet Fondue Dinner",
+        "short_description": "Indulge in a traditional Swiss fondue dinner at our alpine chalet with spectacular mountain views.",
+        "price": 100.00,
+        "category": "Experiences",
+        "features": [
+            "Selection of gourmet cheeses",
+            "Private table with mountain view",
+            "Includes a bottle of local wine"
+        ]
+    },
+    {
+        "title": "Beginner's Snowboarding Day",
+        "short_description": "Learn the basics of snowboarding with this beginner-friendly package that includes lessons and gear.",
+        "price": 140.00,
+        "category": "Ski School",
+        "features": [
+            "4-hour beginner lessons",
+            "Snowboard and boots rental",
+            "Lift pass included"
+        ]
+    },
+    {
+        "title": "Luxury Mountain Spa Day",
+        "short_description": "Pamper yourself with a day at our luxury mountain spa, offering a range of treatments designed for skiers.",
+        "price": 220.00,
+        "category": "Accommodation",
+        "features": [
+            "Thermal pools",
+            "Massage and body treatments",
+            "Access to sauna and steam rooms"
+        ]
+    },
+    {
+        "title": "Avalanche Safety Course",
+        "short_description": "Learn crucial safety skills with our comprehensive avalanche safety course, taught by certified experts.",
+        "price": 150.00,
+        "category": "Ski School",
+        "features": [
+            "Full day training",
+            "Includes practical field exercises",
+            "Avalanche safety gear provided"
+        ]
+    },
+    {
+        "title": "Winter Wildlife Photography Tour",
+        "short_description": "Capture stunning wildlife photographs with a guided tour through habitats frequented by native alpine animals.",
+        "price": 175.00,
+        "category": "Experiences",
+        "features": [
+            "Guided by a professional wildlife photographer",
+            "Camera and lenses provided",
+            "Transport and lunch included"
+        ]
+    },
+    {
+        "title": "Ice Fishing Experience",
+        "short_description": "Try your hand at ice fishing in our frozen mountain lakes with all equipment and guidance provided.",
+        "price": 90.00,
+        "category": "Experiences",
+        "features": [
+            "Heated ice fishing hut",
+            "Fishing equipment and bait",
+            "Catch and cook your fish on site"
+        ]
+    },
+    {
+        "title": "Snow Castle Building Contest",
+        "short_description": "Participate in our snow castle building contest, perfect for families and friends to show off their creativity.",
+        "price": 20.00,
+        "category": "Events",
+        "features": [
+            "Snow tools and decorations provided",
+            "Prizes for the most creative designs",
+            "Hot beverages and snacks"
+        ]
+    },
+    {
+        "title": "VIP Night Ski Experience",
+        "short_description": "Exclusive night skiing experience with VIP access to uncrowded slopes and a luxury lounge.",
+        "price": 180.00,
+        "category": "Ski Pass",
+        "features": [
+            "Limited access to ensure exclusivity",
+            "Complimentary gourmet dinner",
+            "VIP lounge with live music"
+        ]
+    },
+    {
+        "title": "Ski Photography Workshop",
+        "short_description": "Learn to capture the perfect ski action shots with a professional ski photographer.",
+        "price": 200.00,
+        "category": "Ski School",
+        "features": [
+            "Full-day workshop on the slopes",
+            "Professional tips and tricks",
+            "Photo review and feedback session"
+        ]
+    },
+    {
+        "title": "Couples' Ski Retreat",
+        "short_description": "Enjoy a romantic getaway with this couples' package, including private lessons, spa, and a candlelit dinner.",
+        "price": 450.00,
+        "category": "Accommodation",
+        "features": [
+            "Private ski lessons for two",
+            "Spa treatment vouchers",
+            "Exclusive dinner with a view"
+        ]
+    },
+    {
+        "title": "Historical Mountain Tour",
+        "short_description": "Explore the rich history of our mountain with a guided tour of historical sites and local lore.",
+        "price": 50.00,
+        "category": "Experiences",
+        "features": [
+            "Guided walking tour",
+            "Visit ancient ruins and historical markers",
+            "Complimentary local history book"
+        ]
+    },
+    {
+        "title": "Ultimate Snow Park Pass",
+        "short_description": "Gain unlimited access to our snow parks with a variety of features for all skill levels.",
+        "price": 100.00,
+        "category": "Ski Pass",
+        "features": [
+            "Access to half-pipes, rails, and jumps",
+            "Free entry to weekly competitions",
+            "Discounts at nearby eateries and shops"
+        ]
+    },
+    {
+        "title": "Mushroom Foraging and Cooking Class",
+        "short_description": "Forage for wild mushrooms in the woods and learn to cook them with a professional chef.",
+        "price": 120.00,
+        "category": "Experiences",
+        "features": [
+            "Guided foraging tour",
+            "Cooking class with chef",
+            "Take home your prepared dishes"
+        ]
+    },
+    {
+        "title": "Mountain Biking Downhill Thrill",
+        "short_description": "Experience the thrill of downhill mountain biking on specially designed trails.",
+        "price": 130.00,
+        "category": "Experiences",
+        "features": [
+            "High-performance bike rental",
+            "Protective gear included",
+            "Guided by an expert"
+        ]
+    },
+    {
+        "title": "Snowkiting Introductory Course",
+        "short_description": "Learn the basics of snowkiting with expert instructors in a thrilling introductory course.",
+        "price": 160.00,
+        "category": "Ski School",
+        "features": [
+            "2-day course",
+            "Equipment provided",
+            "Certification upon completion"
+        ]
+    },
+    {
+        "title": "Alpine Herb Walk and Tea Tasting",
+        "short_description": "Discover local alpine herbs with a guided walk and enjoy a tea tasting session using those herbs.",
+        "price": 35.00,
+        "category": "Experiences",
+        "features": [
+            "Guided herb identification walk",
+            "Herbal tea tasting and preparation",
+            "Herb samples to take home"
+        ]
+    },
+    {
+        "title": "Full Moon Cross-Country Skiing",
+        "short_description": "Join our guided cross-country skiing tour under the full moon, followed by a fireside gathering.",
+        "price": 65.00,
+        "category": "Events",
+        "features": [
+            "Night-time ski equipment",
+            "Guided skiing on groomed trails",
+            "Campfire with marshmallow roasting"
+        ]
+    },
+    {
+        "title": "Ultimate Freeride Competition",
+        "short_description": "Compete in our ultimate freeride competition, open to skilled skiers and snowboarders.",
+        "price": 75.00,
+        "category": "Events",
+        "features": [
+            "Professional judging",
+            "Prizes for top performers",
+            "Post-event party with DJ"
+        ]
+    },
+    {
+        "title": "Off-Piste Ski Adventure",
+        "short_description": "Explore off-piste terrain with experienced guides and discover untouched powder.",
+        "price": 210.00,
+        "category": "Experiences",
+        "features": [
+            "Expert ski guides",
+            "Safety equipment provided",
+            "Lunch in a secluded mountain hut"
+        ]
+    },
+    {
+        "title": "Ski and Stay Weekend Package",
+        "short_description": "Enjoy a full weekend getaway with this package that includes hotel stay, ski passes, and meals.",
+        "price": 320.00,
+        "category": "Accommodation",
+        "features": [
+            "2 nights in a luxury room",
+            "2-day ski pass",
+            "Breakfast and dinner included"
+        ]
+    },
+    {
+        "title": "Alpine Astronomy Night",
+        "short_description": "Experience the stars like never before with our guided astronomy night, including a telescope session.",
+        "price": 40.00,
+        "category": "Events",
+        "features": [
+            "Professional astronomer guide",
+            "Telescope viewing session",
+            "Warm drinks and blankets provided"
+        ]
+    },
+    {
+        "title": "Themed Ski Days",
+        "short_description": "Join one of our themed ski days, featuring costumes, music, and fun contests on the slopes.",
+        "price": 55.00,
+        "category": "Events",
+        "features": [
+            "Costume contest",
+            "Music from various decades",
+            "Prizes for best costumes"
+        ]
+    },
+    {
+        "title": "Mountain Top Picnic",
+        "short_description": "Ride the chairlift to a scenic spot and enjoy a gourmet picnic with breathtaking views.",
+        "price": 85.00,
+        "category": "Experiences",
+        "features": [
+            "Gourmet picnic basket",
+            "Round-trip chairlift ride",
+            "Blankets and cushions provided"
+        ]
+    },
+    {
+        "title": "Yoga and Meditation Retreat",
+        "short_description": "Rejuvenate with a weekend retreat focusing on yoga, meditation, and wellness in the mountains.",
+        "price": 350.00,
+        "category": "Accommodation",
+        "features": [
+            "Multiple yoga and meditation sessions",
+            "Healthy meals included",
+            "Wellness workshops"
+        ]
     }
 ]
