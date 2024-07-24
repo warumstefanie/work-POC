@@ -1,12 +1,12 @@
 last_product = {
-        "title": "Snow Festival Ticket",
-        "short_description": "Entry ticket to the annual Snow Festival featuring ice sculptures, games, and live music.",
-        "price": 45.00,
-        "category": "Events",
+        "title": "Weekday Ski Pass",
+        "short_description": "Ski any weekday and enjoy less crowded slopes with our special weekday pass.",
+        "price": 50.00,
+        "category": "Ski Pass",
         "features": [
-            "Full-day pass",
-            "Access to all events and attractions",
-            "Special discounts on food and merchandise"
+            "Valid Monday to Friday",
+            "Discounted rates for groups",
+            "Early access to lifts"
         ]
     }
 

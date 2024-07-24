@@ -3,6 +3,7 @@ from openai import OpenAI
 import numpy as np
 from sklearn.manifold import TSNE
 from scipy.spatial import distance
+
 model = "gpt-4-turbo"
 client = OpenAI(api_key=os.environ["OPENAI"])
 
@@ -10,7 +11,7 @@ client = OpenAI(api_key=os.environ["OPENAI"])
 # Function to create embeddings from text
 def create_embeddings(texts):
   response = client.embeddings.create(
-    model="text-embedding-ada-002",
+    model="text-embedding-3-small",
     input=texts
   )
   response_dict = response.model_dump()
@@ -63,5 +64,26 @@ def recommend_products(user_history, products):
     for title, distance in recommended_products:
         print(f"Product: {title}, Distance: {distance}")
 
+
+def recommend_products_chatbot(user_history, products):
+    # Create text descriptions of each product in the user's history and compute their embeddings
+    history_texts = [create_product_text(product) for product in user_history]
+    history_embeddings = create_embeddings(history_texts)
+    mean_history_embeddings = np.mean(history_embeddings, axis=0)
+
+    # Filter out products that are already in the user's history
+    products_filtered = [product for product in products if product not in user_history]
+
+    # Create text descriptions of the filtered products and compute their embeddings
+    product_texts = [create_product_text(product) for product in products_filtered]
+    product_embeddings = create_embeddings(product_texts)
+
+    # Find products closest to the mean of history embeddings
+    hits = find_n_closest(mean_history_embeddings, product_embeddings)
+
+    # Create a list of recommended products with titles and distances
+    recommended_products = [(products_filtered[hit['index']]['title'], hit['distance']) for hit in hits]
+    
+    return recommended_products
 
 
